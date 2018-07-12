@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/list/list"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "电影热映",
+      "iconPath": "pages/images/icon_API.png",
+      "selectedIconPath": "pages/images/icon_API_HL.png"
+    },
+    {
+      "pagePath": "pages/list/list",
+      "text": "电影分类",
+      "iconPath": "pages/images/icon_component.png",
+      "selectedIconPath": "pages/images/icon_component_HL.png"
+    }
+    ]
+  }
+}
